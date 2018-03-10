@@ -25,6 +25,7 @@
         <module>BuildMode</module>
         <module>AOPInject</module>
         <module>CompositeMode</module>
+        <module>flyWeightMode</module>
     </modules>
 
 

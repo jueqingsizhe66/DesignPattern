@@ -13,6 +13,7 @@
         <module name="commandModel" />
         <module name="CompositeMode" />
         <module name="DecorateMode" />
+        <module name="flyWeight" />
         <module name="Interpreter" />
         <module name="IteratorMode" />
         <module name="ObserverMode" />
@@ -33,6 +34,7 @@
       <module name="CompositeMode" target="1.8" />
       <module name="DecorateMode" target="1.8" />
       <module name="designer" target="1.8" />
+      <module name="flyWeight" target="1.8" />
       <module name="Interpreter" target="1.8" />
       <module name="IteratorMode" target="1.8" />
       <module name="ObserverMode" target="1.8" />
