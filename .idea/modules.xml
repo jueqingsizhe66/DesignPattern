@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOPInject/AOPInject.iml" filepath="$PROJECT_DIR$/AOPInject/AOPInject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterMode/AdapterMode.iml" filepath="$PROJECT_DIR$/AdapterMode/AdapterMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BridgeMode/BridgeMode.iml" filepath="$PROJECT_DIR$/BridgeMode/BridgeMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuildMode/BuildMode.iml" filepath="$PROJECT_DIR$/BuildMode/BuildMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompositeMode/CompositeMode.iml" filepath="$PROJECT_DIR$/CompositeMode/CompositeMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecorateMode/DecorateMode.iml" filepath="$PROJECT_DIR$/DecorateMode/DecorateMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IteratorMode/IteratorMode.iml" filepath="$PROJECT_DIR$/IteratorMode/IteratorMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverMode/ObserverMode.iml" filepath="$PROJECT_DIR$/ObserverMode/ObserverMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" filepath="$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatusMode/StatusMode.iml" filepath="$PROJECT_DIR$/StatusMode/StatusMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StragetyMode/StragetyMode.iml" filepath="$PROJECT_DIR$/StragetyMode/StragetyMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemplateMode/TemplateMode.iml" filepath="$PROJECT_DIR$/TemplateMode/TemplateMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VisitorMode/VisitorMode.iml" filepath="$PROJECT_DIR$/VisitorMode/VisitorMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commandModel/commandModel.iml" filepath="$PROJECT_DIR$/commandModel/commandModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designer.iml" filepath="$PROJECT_DIR$/designer.iml" />
+    </modules>
+  </component>
+</project>

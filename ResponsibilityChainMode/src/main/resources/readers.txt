@@ -1,0 +1,5 @@
+TXTFileReader
+HtmlFileReader
+DocFileReader
+DocxFileReader
+DocxFileReaderA

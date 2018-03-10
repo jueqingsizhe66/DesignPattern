@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AdapterMode" />
+        <module name="AOPInject" />
+        <module name="BridgeMode" />
+        <module name="BuildMode" />
+        <module name="commandModel" />
+        <module name="CompositeMode" />
+        <module name="DecorateMode" />
+        <module name="Interpreter" />
+        <module name="IteratorMode" />
+        <module name="ObserverMode" />
+        <module name="ResponsibilityChainMode" />
+        <module name="StatusMode" />
+        <module name="StragetyMode" />
+        <module name="TemplateMode" />
+        <module name="VisitorMode" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdapterMode" target="1.8" />
+      <module name="AOPInject" target="1.8" />
+      <module name="basic" target="1.5" />
+      <module name="BridgeMode" target="1.8" />
+      <module name="BuildMode" target="1.8" />
+      <module name="commandModel" target="1.8" />
+      <module name="CompositeMode" target="1.8" />
+      <module name="DecorateMode" target="1.8" />
+      <module name="designer" target="1.8" />
+      <module name="Interpreter" target="1.8" />
+      <module name="IteratorMode" target="1.8" />
+      <module name="ObserverMode" target="1.8" />
+      <module name="ResponsibilityChainMode" target="1.8" />
+      <module name="rupengmvc" target="1.8" />
+      <module name="StatusMode" target="1.8" />
+      <module name="StragetyMode" target="1.8" />
+      <module name="TemplateMode" target="1.8" />
+      <module name="VisitorMode" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
