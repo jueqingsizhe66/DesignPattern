@@ -14,9 +14,13 @@
         <module name="CompositeMode" />
         <module name="DecorateMode" />
         <module name="flyWeight" />
+        <module name="HessianInterface" />
+        <module name="HessianServer" />
+        <module name="HesssianClient" />
         <module name="Interpreter" />
         <module name="IteratorMode" />
         <module name="ObserverMode" />
+        <module name="ProxyMode" />
         <module name="ResponsibilityChainMode" />
         <module name="StatusMode" />
         <module name="StragetyMode" />
@@ -35,9 +39,13 @@
       <module name="DecorateMode" target="1.8" />
       <module name="designer" target="1.8" />
       <module name="flyWeight" target="1.8" />
+      <module name="HessianInterface" target="1.8" />
+      <module name="HessianServer" target="1.8" />
+      <module name="HesssianClient" target="1.8" />
       <module name="Interpreter" target="1.8" />
       <module name="IteratorMode" target="1.8" />
       <module name="ObserverMode" target="1.8" />
+      <module name="ProxyMode" target="1.8" />
       <module name="ResponsibilityChainMode" target="1.8" />
       <module name="rupengmvc" target="1.8" />
       <module name="StatusMode" target="1.8" />

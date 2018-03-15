@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.platform:org.eclipse.core.runtime:3.13.0">
     <CLASSES>
-      <root url="jar://G:/JAVA/apache-maven-3.3.9/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0.jar!/" />
+      <root url="jar://$MAVEN_HOME$/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://G:/JAVA/apache-maven-3.3.9/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_HOME$/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://G:/JAVA/apache-maven-3.3.9/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0-sources.jar!/" />
+      <root url="jar://$MAVEN_HOME$/MyselfLib/org/eclipse/platform/org.eclipse.core.runtime/3.13.0/org.eclipse.core.runtime-3.13.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

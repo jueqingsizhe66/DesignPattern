@@ -26,6 +26,10 @@
         <module>AOPInject</module>
         <module>CompositeMode</module>
         <module>flyWeightMode</module>
+        <module>ProxyMode</module>
+        <module>HessianInterface</module>
+        <module>HessianServer</module>
+        <module>HesssianClient</module>
     </modules>
 
 
