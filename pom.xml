@@ -30,6 +30,9 @@
         <module>HessianInterface</module>
         <module>HessianServer</module>
         <module>HesssianClient</module>
+        <module>SingletonMode</module>
+        <module>FactoryMode</module>
+        <module>ProtoTypeMode</module>
     </modules>
 
 

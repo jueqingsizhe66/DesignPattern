@@ -13,6 +13,7 @@
         <module name="commandModel" />
         <module name="CompositeMode" />
         <module name="DecorateMode" />
+        <module name="FactoryMode" />
         <module name="flyWeight" />
         <module name="HessianInterface" />
         <module name="HessianServer" />
@@ -20,8 +21,10 @@
         <module name="Interpreter" />
         <module name="IteratorMode" />
         <module name="ObserverMode" />
+        <module name="ProtoTypeMode" />
         <module name="ProxyMode" />
         <module name="ResponsibilityChainMode" />
+        <module name="SingletonMode" />
         <module name="StatusMode" />
         <module name="StragetyMode" />
         <module name="TemplateMode" />
@@ -38,6 +41,7 @@
       <module name="CompositeMode" target="1.8" />
       <module name="DecorateMode" target="1.8" />
       <module name="designer" target="1.8" />
+      <module name="FactoryMode" target="1.8" />
       <module name="flyWeight" target="1.8" />
       <module name="HessianInterface" target="1.8" />
       <module name="HessianServer" target="1.8" />
@@ -45,9 +49,11 @@
       <module name="Interpreter" target="1.8" />
       <module name="IteratorMode" target="1.8" />
       <module name="ObserverMode" target="1.8" />
+      <module name="ProtoTypeMode" target="1.8" />
       <module name="ProxyMode" target="1.8" />
       <module name="ResponsibilityChainMode" target="1.8" />
       <module name="rupengmvc" target="1.8" />
+      <module name="SingletonMode" target="1.8" />
       <module name="StatusMode" target="1.8" />
       <module name="StragetyMode" target="1.8" />
       <module name="TemplateMode" target="1.8" />

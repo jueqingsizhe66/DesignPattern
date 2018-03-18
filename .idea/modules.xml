@@ -8,14 +8,17 @@
       <module fileurl="file://$PROJECT_DIR$/BuildMode/BuildMode.iml" filepath="$PROJECT_DIR$/BuildMode/BuildMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompositeMode/CompositeMode.iml" filepath="$PROJECT_DIR$/CompositeMode/CompositeMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecorateMode/DecorateMode.iml" filepath="$PROJECT_DIR$/DecorateMode/DecorateMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryMode/FactoryMode.iml" filepath="$PROJECT_DIR$/FactoryMode/FactoryMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/HessianInterface/HessianInterface.iml" filepath="$PROJECT_DIR$/HessianInterface/HessianInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/HessianServer/HessianServer.iml" filepath="$PROJECT_DIR$/HessianServer/HessianServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/HesssianClient/HesssianClient.iml" filepath="$PROJECT_DIR$/HesssianClient/HesssianClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
       <module fileurl="file://$PROJECT_DIR$/IteratorMode/IteratorMode.iml" filepath="$PROJECT_DIR$/IteratorMode/IteratorMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverMode/ObserverMode.iml" filepath="$PROJECT_DIR$/ObserverMode/ObserverMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" filepath="$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProxyMode/ProxyMode.iml" filepath="$PROJECT_DIR$/ProxyMode/ProxyMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" filepath="$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonMode/SingletonMode.iml" filepath="$PROJECT_DIR$/SingletonMode/SingletonMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StatusMode/StatusMode.iml" filepath="$PROJECT_DIR$/StatusMode/StatusMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StragetyMode/StragetyMode.iml" filepath="$PROJECT_DIR$/StragetyMode/StragetyMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/TemplateMode/TemplateMode.iml" filepath="$PROJECT_DIR$/TemplateMode/TemplateMode.iml" />
