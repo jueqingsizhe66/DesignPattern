@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/HesssianClient/HesssianClient.iml" filepath="$PROJECT_DIR$/HesssianClient/HesssianClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
       <module fileurl="file://$PROJECT_DIR$/IteratorMode/IteratorMode.iml" filepath="$PROJECT_DIR$/IteratorMode/IteratorMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediatorMode/MediatorMode.iml" filepath="$PROJECT_DIR$/MediatorMode/MediatorMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MementoMode/MementoMode.iml" filepath="$PROJECT_DIR$/MementoMode/MementoMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverMode/ObserverMode.iml" filepath="$PROJECT_DIR$/ObserverMode/ObserverMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" filepath="$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProxyMode/ProxyMode.iml" filepath="$PROJECT_DIR$/ProxyMode/ProxyMode.iml" />

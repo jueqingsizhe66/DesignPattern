@@ -20,6 +20,8 @@
         <module name="HesssianClient" />
         <module name="Interpreter" />
         <module name="IteratorMode" />
+        <module name="MediatorMode" />
+        <module name="MementoMode" />
         <module name="ObserverMode" />
         <module name="ProtoTypeMode" />
         <module name="ProxyMode" />
@@ -48,6 +50,8 @@
       <module name="HesssianClient" target="1.8" />
       <module name="Interpreter" target="1.8" />
       <module name="IteratorMode" target="1.8" />
+      <module name="MediatorMode" target="1.8" />
+      <module name="MementoMode" target="1.8" />
       <module name="ObserverMode" target="1.8" />
       <module name="ProtoTypeMode" target="1.8" />
       <module name="ProxyMode" target="1.8" />

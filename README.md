@@ -31,6 +31,18 @@ d. 正如其模板的魅力，肯定有模板模式，挖上一个窟窿，到�
 多态原则：子类可指向父类，在方法调用时候使用子类的覆盖方法.**很重要啦！**
 
 
+2. 接口和抽象函数
+
+接口是什么？ Collection接口，文件流
+Hessian接口，搭建Hessian接口，Hessian服务器，Hessian客户端(代理模式的运用, https文本代理，rpc二进制代理)
+
+牛顿说："世界要接口，于是接口无处不在"
+
+
+
+
+
+
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
-
+[3]:http://hessian.caucho.com/ 

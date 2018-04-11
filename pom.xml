@@ -33,6 +33,9 @@
         <module>SingletonMode</module>
         <module>FactoryMode</module>
         <module>ProtoTypeMode</module>
+        <module>mediator</module>
+        <module>MediatorMode</module>
+        <module>MementoMode</module>
     </modules>
 
 
