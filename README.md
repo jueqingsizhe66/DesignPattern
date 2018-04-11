@@ -40,9 +40,22 @@ Hessian接口，搭建Hessian接口，Hessian服务器，Hessian客户端(代理
 
 
 
+3. 动态分派和静态分派
 
+在[访问者模式][4]中, 我才明白参数和接收者的意思，明白java是接收者动态分配【按子类调用 对应 被操作对象.accept
+(行为访问类)】，动态分配置换掉某个方法，发生在运行期，而
+针对于参数则是使用静态方式【发生在编译期】，也就是使用父类方式，对应visitor的vistor.visit(this)
 
+4. 枚举类
+
+静态枚举类，enum类，通过instance调用，是最经常使用的一种单例模式。
+
+5. 责任链模式
+
+必须能够生成chain，也就是setNextHandler(下一个处理人是谁)，过滤器就是典型的责任链，只要有我就过滤掉，
+然后就不管了，继续处理下一个bean。
 
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
 [3]:http://hessian.caucho.com/ 
+[4]:https://blog.csdn.net/anxpp/article/details/51224293 
