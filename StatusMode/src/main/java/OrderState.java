@@ -1,3 +1,3 @@
 public enum OrderState {
-    UnPayed,Payed,Refund,Confirmed
+	UnPayed, Payed, Refund, Confirmed
 }

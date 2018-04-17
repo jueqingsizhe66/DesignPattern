@@ -4,33 +4,34 @@ import proxy.annotation.Fluid;
 
 public class DogImpAnno implements AnimalInterface {
 
-    @Fluid(value="Lunar")
-    private String name;
-    private String Property;
-    @Override
-    public void setName(String name) {
-       this.name = name;
-    }
+	@Fluid(value = "Lunar")
+	private String name;
+	private String Property;
 
-    @Override
-    public String getName() {
-        return this.name;
-    }
+	@Override
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    @Override
-    public void say() {
+	@Override
+	public String getName() {
+		return this.name;
+	}
 
-        System.out.println("Dog: wang");
-    }
+	@Override
+	public void say() {
 
-    @Override
-    public void getProperty() {
-        System.out.println(this.name+ this.Property);
+		System.out.println("Dog: wang");
+	}
 
-    }
+	@Override
+	public void getProperty() {
+		System.out.println(this.name + this.Property);
 
-   @Fluid(Property="Fluid Shore warrider")
-    public void setProperty(String Property){
-        this.Property = Property;
-    }
+	}
+
+	@Fluid(Property = "Fluid Shore warrider")
+	public void setProperty(String Property) {
+		this.Property = Property;
+	}
 }

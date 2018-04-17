@@ -10,10 +10,11 @@ public class Makefile {
 		File file = new File(name);
 		file.createNewFile();
 	}
+	
 	//删除文件
-	public boolean deleteFile(String name){
+	public boolean deleteFile(String name) {
 		File file = new File(name);
-		if(file.exists()&&file.isFile()){
+		if (file.exists() && file.isFile()) {
 			file.delete();
 			return true;
 		}

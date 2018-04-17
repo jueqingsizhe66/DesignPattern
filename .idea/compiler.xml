@@ -13,6 +13,8 @@
         <module name="commandModel" />
         <module name="CompositeMode" />
         <module name="DecorateMode" />
+        <module name="f708mvc" />
+        <module name="f708mvcTest" />
         <module name="FactoryMode" />
         <module name="flyWeight" />
         <module name="HessianInterface" />
@@ -43,6 +45,8 @@
       <module name="CompositeMode" target="1.8" />
       <module name="DecorateMode" target="1.8" />
       <module name="designer" target="1.8" />
+      <module name="f708mvc" target="1.8" />
+      <module name="f708mvcTest" target="1.8" />
       <module name="FactoryMode" target="1.8" />
       <module name="flyWeight" target="1.8" />
       <module name="HessianInterface" target="1.8" />

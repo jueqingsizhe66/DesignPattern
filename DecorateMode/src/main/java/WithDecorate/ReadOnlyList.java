@@ -7,128 +7,130 @@ import java.util.ListIterator;
 
 public class ReadOnlyList<E> implements List<E> {
 
-    // composite rule
-    private  List<E> target;
-    public ReadOnlyList(List<E> target){
-        super();
-        this.target = target;
-    }
-    @Override
-    public int size() {
-        return target.size();
-    }
+	// composite rule
+	private List<E> target;
 
-    @Override
-    public boolean isEmpty() {
-        return target.isEmpty();
-    }
+	public ReadOnlyList(List<E> target) {
+		super();
+		this.target = target;
+	}
 
-    @Override
-    public boolean contains(Object o) {
-        return target.contains(o);
-    }
+	@Override
+	public int size() {
+		return target.size();
+	}
 
-    @Override
-    public Iterator<E> iterator() {
-        return target.iterator();// something missed
-    }
+	@Override
+	public boolean isEmpty() {
+		return target.isEmpty();
+	}
 
-    @Override
-    public Object[] toArray() {
-        return target.toArray();
-    }
+	@Override
+	public boolean contains(Object o) {
+		return target.contains(o);
+	}
 
-    @Override
-    public <T> T[] toArray(T[] a) {
-        return target.toArray(a);
-    }
+	@Override
+	public Iterator<E> iterator() {
+		return target.iterator();// something missed
+	}
 
-    @Override
-    public boolean add(E e) {
-        throw new RuntimeException("Only read list, cannot be added");
-    }
+	@Override
+	public Object[] toArray() {
+		return target.toArray();
+	}
 
-    @Override
-    public boolean remove(Object o) {
-        throw new RuntimeException("Only read list, cannot be removed");
-    }
+	@Override
+	public <T> T[] toArray(T[] a) {
+		return target.toArray(a);
+	}
 
-    @Override
-    public boolean containsAll(Collection<?> c) {
-        return target.containsAll(c);
-    }
+	@Override
+	public boolean add(E e) {
+		throw new RuntimeException("Only read list, cannot be added");
+	}
 
-    @Override
-    public boolean addAll(Collection<? extends E> c) {
+	@Override
+	public boolean remove(Object o) {
+		throw new RuntimeException("Only read list, cannot be removed");
+	}
 
-        throw new RuntimeException("Only read list, cannot be added");
-    }
+	@Override
+	public boolean containsAll(Collection<?> c) {
+		return target.containsAll(c);
+	}
 
-    @Override
-    public boolean addAll(int index, Collection<? extends E> c) {
-        throw new RuntimeException("Only read list, cannot be added");
-    }
+	@Override
+	public boolean addAll(Collection<? extends E> c) {
 
-    @Override
-    public boolean removeAll(Collection<?> c) {
-        throw new RuntimeException("Only read list, cannot be removed");
-    }
+		throw new RuntimeException("Only read list, cannot be added");
+	}
 
-    @Override
-    public boolean retainAll(Collection<?> c) {
-        throw new RuntimeException("Only read list, cannot be removed");
-    }
+	@Override
+	public boolean addAll(int index, Collection<? extends E> c) {
+		throw new RuntimeException("Only read list, cannot be added");
+	}
 
-    @Override
-    public void clear() {
+	@Override
+	public boolean removeAll(Collection<?> c) {
+		throw new RuntimeException("Only read list, cannot be removed");
+	}
 
-        throw new RuntimeException("Only read list, cannot be removed");
-    }
+	@Override
+	public boolean retainAll(Collection<?> c) {
+		throw new RuntimeException("Only read list, cannot be removed");
+	}
 
-    @Override
-    public E get(int index) {
-        return target.get(index);
-    }
+	@Override
+	public void clear() {
 
-    @Override
-    public E set(int index, E element) {
-        throw new RuntimeException("Only read list, cannot be mmodified");
-    }
+		throw new RuntimeException("Only read list, cannot be removed");
+	}
 
-    @Override
-    public void add(int index, E element) {
+	@Override
+	public E get(int index) {
+		return target.get(index);
+	}
 
-        throw new RuntimeException("Only read list, cannot be added");
-    }
+	@Override
+	public E set(int index, E element) {
+		throw new RuntimeException("Only read list, cannot be mmodified");
+	}
 
-    @Override
-    public E remove(int index) {
-        throw new RuntimeException("Only read list, cannot  be removed");
-    }
+	@Override
+	public void add(int index, E element) {
 
-    @Override
-    public int indexOf(Object o) {
-        return target.indexOf(o);
-    }
+		throw new RuntimeException("Only read list, cannot be added");
+	}
 
-    @Override
-    public int lastIndexOf(Object o) {
+	@Override
+	public E remove(int index) {
+		throw new RuntimeException("Only read list, cannot  be removed");
+	}
 
-        return target.lastIndexOf(o);
-    }
+	@Override
+	public int indexOf(Object o) {
+		return target.indexOf(o);
+	}
 
-    @Override
-    public ListIterator<E> listIterator() {
-        return target.listIterator(); //missed  bugs
-    }
+	@Override
+	public int lastIndexOf(Object o) {
 
-    @Override
-    public ListIterator<E> listIterator(int index) {
-        return target.listIterator(index);
-    }
+		return target.lastIndexOf(o);
+	}
 
-    @Override
-    public List<E> subList(int fromIndex, int toIndex) {
-        return target.subList(fromIndex,toIndex);
-    }
+	@Override
+	public ListIterator<E> listIterator() {
+		return target.listIterator(); //missed  bugs
+	}
+
+	@Override
+	public ListIterator<E> listIterator(int index) {
+		return target.listIterator(index);
+	}
+
+	@Override
+	public List<E> subList(int fromIndex, int toIndex) {
+		return target.subList(fromIndex, toIndex);
+	}
 }

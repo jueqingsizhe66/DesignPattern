@@ -1,9 +1,9 @@
 package com.cglib;
 
 public class TestCglib {
-    public static void main(String[] args) {
-        TestImpa t1 = new TestImpa();
-        TestImpa proxyImpa =(TestImpa)new CglibProxy().getInstance(t1);
+	public static void main(String[] args) {
+		TestImpa t1 = new TestImpa();
+		TestImpa proxyImpa = (TestImpa) new CglibProxy().getInstance(t1);
         /*
        TestImpa$$EnhancerByCGLIB$$e202c6ef
 
@@ -16,10 +16,10 @@ public class TestCglib {
          public void test2(String s){ callback.intercept(...);}
        }
          */
-        System.out.println(proxyImpa.getClass());
-        System.out.println(proxyImpa.getClass().getSuperclass());
-        proxyImpa.test1();
-        proxyImpa.test2("edu.f708");
-
-    }
+		System.out.println(proxyImpa.getClass());
+		System.out.println(proxyImpa.getClass().getSuperclass());
+		proxyImpa.test1();
+		proxyImpa.test2("edu.f708");
+		
+	}
 }

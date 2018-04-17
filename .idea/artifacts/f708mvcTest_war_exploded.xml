@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="f708mvcTest:war exploded">
+    <output-path>$PROJECT_DIR$/f708mvcTest/target/f708mvcTest-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="f708mvcTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="f708mvc-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="f708mvc" />
+          </element>
+          <element id="library" level="project" name="Maven: org.glassfish.web:jstl-impl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:24.0-jre" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" />
+          <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" />
+          <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/f708mvcTest/target/f708mvcTest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="f708mvcTest/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -4,6 +4,7 @@
     <currentScheme>IDE</currentScheme>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/f708mvcTest" />
     <file type="web" url="file://$PROJECT_DIR$/HessianServer" />
   </component>
   <component name="MavenProjectsManager">

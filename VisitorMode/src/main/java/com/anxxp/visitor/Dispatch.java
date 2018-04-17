@@ -3,6 +3,7 @@ package com.anxxp.visitor;
 public class Dispatch {
 	/**
 	 * 根据参数类型进行调用
+	 *
 	 * @param c
 	 */
 	void print(FatherClass c) {
@@ -23,12 +24,14 @@ public class Dispatch {
 		
 	}
 }
-class FatherClass{
+
+class FatherClass {
 	void print() {
 		System.out.println("Father class");
 	}
 }
-class ChildClass extends FatherClass{
+
+class ChildClass extends FatherClass {
 	void print() {
 		System.out.println("Child class");
 	}

@@ -5,7 +5,7 @@ public class TestUse {
 		Adaptee adaptee = new Adaptee();
 		adaptee.playMp3("mp3");
 		
-		Target target =new ClassAdapter();
+		Target target = new ClassAdapter();
 		target.playFlac("flac");
 		
 		target = new ObjectApter();

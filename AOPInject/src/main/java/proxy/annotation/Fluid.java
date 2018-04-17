@@ -10,8 +10,9 @@ import java.lang.annotation.Target;
 @Retention用来说明该注解类的生命周期.
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.FIELD,ElementType.METHOD})
+@Target({ElementType.FIELD, ElementType.METHOD})
 public @interface Fluid {
-    public String value() default "Big hei";
-    public String Property() default "Empty";
+	public String value() default "Big hei";
+
+	public String Property() default "Empty";
 }

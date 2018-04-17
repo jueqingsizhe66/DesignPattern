@@ -16,14 +16,15 @@ import java.io.IOException;
 
  */
 public class ComputerAdapter implements Closeable {
-    private Computer comp;
-    public ComputerAdapter(Computer c)
-    {
-        this.comp = c;
-    }
-    @Override
-    public void close() throws IOException {
-        //还是Computer类的close() 方法
-        comp.close();
-    }
+	private Computer comp;
+
+	public ComputerAdapter(Computer c) {
+		this.comp = c;
+	}
+
+	@Override
+	public void close() throws IOException {
+		//还是Computer类的close() 方法
+		comp.close();
+	}
 }

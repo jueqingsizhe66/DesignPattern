@@ -9,7 +9,7 @@ public class TestUse {
 		service.addClient(new ClientIphoneServer());
 		//更新主题
 		service.updateWeather(new WeatherInfo(System.currentTimeMillis(), "多云"));
-		service.updateWeather(new WeatherInfo(System.currentTimeMillis()+1000*60*60*24, "多云转晴"));
-		service.updateWeather(new WeatherInfo(System.currentTimeMillis()+1000*60*60*24*2, "晴"));
+		service.updateWeather(new WeatherInfo(System.currentTimeMillis() + 1000 * 60 * 60 * 24, "多云转晴"));
+		service.updateWeather(new WeatherInfo(System.currentTimeMillis() + 1000 * 60 * 60 * 24 * 2, "晴"));
 	}
 }

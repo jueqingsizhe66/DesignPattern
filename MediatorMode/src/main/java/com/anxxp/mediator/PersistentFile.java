@@ -1,7 +1,8 @@
 package com.anxxp.mediator;
 
-public class PersistentFile implements IPersistent{
+public class PersistentFile implements IPersistent {
 	private Object data;
+	
 	@Override
 	public void getData(Object data) {
 		this.data = data;
@@ -16,7 +17,7 @@ public class PersistentFile implements IPersistent{
 	
 	@Override
 	public void saveData() {
-		System.out.println(data+"PersistentFile已保存到文件");
-	
+		System.out.println(data + "PersistentFile已保存到文件");
+		
 	}
 }

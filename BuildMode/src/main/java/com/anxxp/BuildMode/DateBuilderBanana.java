@@ -9,7 +9,7 @@ public class DateBuilderBanana implements IDateBuilder {
 	
 	@Override
 	public IDateBuilder buildDate(int y, int m, int d) {
-		myDate.date=y+"*****"+m+"*****"+d;
+		myDate.date = y + "*****" + m + "*****" + d;
 		return this;
 	}
 	

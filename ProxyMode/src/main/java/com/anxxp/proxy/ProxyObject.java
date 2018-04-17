@@ -2,6 +2,7 @@ package com.anxxp.proxy;
 
 public class ProxyObject implements AbstractObject {
 	AbstractObject ob = new TargetObject();
+	
 	@Override
 	public void method1() {
 		ob.method1();

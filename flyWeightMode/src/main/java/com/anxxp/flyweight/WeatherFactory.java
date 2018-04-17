@@ -4,20 +4,22 @@ import java.util.HashMap;
 
 public class WeatherFactory {
 	private HashMap<IWeather, IWeather> weathers;
-	public WeatherFactory(){
+
+	public WeatherFactory() {
 		weathers = new HashMap<IWeather, IWeather>();
 	}
-	public IWeather getFlyWeight(String weather,int temperature){
+
+	public IWeather getFlyWeight(String weather, int temperature) {
 		Weather objectWeather = new Weather(weather, temperature);
 		IWeather flyweight = weathers.get(objectWeather);
-		if(flyweight == null){
+		if (flyweight == null) {
 			flyweight = objectWeather;
 			weathers.put(objectWeather, flyweight);
-		}
-		else objectWeather = null;//方便gc回收
+		} else objectWeather = null;//方便gc回收
 		return flyweight;
 	}
-	public int getFlyweightSize(){
+
+	public int getFlyweightSize() {
 		return weathers.size();
 	}
 }

@@ -7,21 +7,20 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class DocFileReader implements ITextReader {
-    @Override
-    public boolean accept(File file) {
-        String ext = FilenameUtils.getExtension(file.getName());
-        return ext.equalsIgnoreCase("doc");
-    }
-
-    @Override
-    public String readAsString(File file) throws IOException {
-        try (FileInputStream fis = new FileInputStream(file);
-             HWPFDocument doc = new HWPFDocument(fis);)
-        {
-            Range rang = doc.getRange();
-            String text = rang.text();
-            return text;
-        }
-
-    }
+	@Override
+	public boolean accept(File file) {
+		String ext = FilenameUtils.getExtension(file.getName());
+		return ext.equalsIgnoreCase("doc");
+	}
+	
+	@Override
+	public String readAsString(File file) throws IOException {
+		try (FileInputStream fis = new FileInputStream(file);
+		     HWPFDocument doc = new HWPFDocument(fis);) {
+			Range rang = doc.getRange();
+			String text = rang.text();
+			return text;
+		}
+		
+	}
 }

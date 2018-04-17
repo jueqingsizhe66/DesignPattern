@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class TestStringSizeLength {
-    public static void main(String[] args) {
-        List<String> list = new SizeLimitList<>(new LinkedList<>(),10);
+	public static void main(String[] args) {
+		List<String> list = new SizeLimitList<>(new LinkedList<>(), 10);
 
         /*
         此种方式类似于访问者模式的教程   new ---new ----new
@@ -14,6 +14,6 @@ public class TestStringSizeLength {
 
        装饰器分层，装饰器只干一层功能(最大好处)
          */
-        List<String> list2  = new StringLenLimitList(new SizeLimitList<>(new LinkedList<>(),10));
-    }
+		List<String> list2 = new StringLenLimitList(new SizeLimitList<>(new LinkedList<>(), 10));
+	}
 }

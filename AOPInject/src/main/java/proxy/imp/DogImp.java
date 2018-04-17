@@ -1,30 +1,33 @@
 package proxy.imp;
 
-public class DogImp implements AnimalInterface{
-    private String name = "Hei"; //Default Name
-    @Override
-    public void setName(String name) {
-       this.name = name;
-    }
+public class DogImp implements AnimalInterface {
+	private String name = "Hei"; //Default Name
 
-    public DogImp(){
-    }
-    public DogImp(String name){
-        this.name = name;
-    }
-    @Override
-    public String getName() {
-        return this.name;
-    }
+	@Override
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    @Override
-    public void say() {
-        System.out.println(this.name+ ": Welcome back! Fuck you!");
-    }
+	public DogImp() {
+	}
 
-    @Override
-    public void getProperty() {
+	public DogImp(String name) {
+		this.name = name;
+	}
 
-        System.out.println(this.name+" : I am your best friend, I can keep guard for you!");
-    }
+	@Override
+	public String getName() {
+		return this.name;
+	}
+
+	@Override
+	public void say() {
+		System.out.println(this.name + ": Welcome back! Fuck you!");
+	}
+
+	@Override
+	public void getProperty() {
+
+		System.out.println(this.name + " : I am your best friend, I can keep guard for you!");
+	}
 }

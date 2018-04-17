@@ -4,59 +4,60 @@ import java.util.ListIterator;
 
 public class ReadOnlyListIterator<E> implements ListIterator<E> {
 
-    private ListIterator<E> target;
+	private ListIterator<E> target;
 
 
-    public ReadOnlyListIterator(ListIterator<E> target){
-        super();
-        this.target = target;
-    }
-    @Override
-    public boolean hasNext() {
-        return target.hasNext();
-    }
+	public ReadOnlyListIterator(ListIterator<E> target) {
+		super();
+		this.target = target;
+	}
 
-    @Override
-    public E next() {
-        return target.next();
-    }
+	@Override
+	public boolean hasNext() {
+		return target.hasNext();
+	}
 
-    @Override
-    public boolean hasPrevious() {
-        return target.hasPrevious();
-    }
+	@Override
+	public E next() {
+		return target.next();
+	}
 
-    @Override
-    public E previous() {
-        return target.previous();
-    }
+	@Override
+	public boolean hasPrevious() {
+		return target.hasPrevious();
+	}
 
-    @Override
-    public int nextIndex() {
-        return target.nextIndex();
-    }
+	@Override
+	public E previous() {
+		return target.previous();
+	}
 
-    @Override
-    public int previousIndex() {
-        return target.previousIndex();
-    }
+	@Override
+	public int nextIndex() {
+		return target.nextIndex();
+	}
 
-    @Override
-    public void remove() {
-        throw new RuntimeException("Only read list");
-    }
+	@Override
+	public int previousIndex() {
+		return target.previousIndex();
+	}
 
-    @Override
-    public void set(E e) {
+	@Override
+	public void remove() {
+		throw new RuntimeException("Only read list");
+	}
 
-        throw new RuntimeException("Only read list");
-    }
+	@Override
+	public void set(E e) {
 
-    @Override
-    public void add(E e) {
+		throw new RuntimeException("Only read list");
+	}
 
-        throw new RuntimeException("Only read list");
-    }
+	@Override
+	public void add(E e) {
+
+		throw new RuntimeException("Only read list");
+	}
 
 
   /*  //Important right below

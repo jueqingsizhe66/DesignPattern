@@ -9,6 +9,7 @@ public class ObjectApter implements Target {
 	 * 增加一個私有變量
 	 */
 	private Adaptee adaptee;
+
 	public ObjectApter() {
 		super();
 		adaptee = new Adaptee();
@@ -16,6 +17,7 @@ public class ObjectApter implements Target {
 	
 	/**
 	 * 新的方法需對來源做一些處理, 怎麼處理？
+	 *
 	 * @param src
 	 */
 	@Override

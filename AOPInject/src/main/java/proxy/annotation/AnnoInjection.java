@@ -10,40 +10,40 @@ how to inject??????????????
 查看之前的AnimalFactory代码,会发现在getAnimalBase里有
  */
 public class AnnoInjection {
-    public static Object getBean(Object obj) {
-        //get Property
-        try{
-            Field f[] =obj.getClass().getDeclaredFields();
-            //遍历属性
-            for (Field currentField : f) {
-                //获得属性上的注释
-                Fluid flu = currentField.getAnnotation(Fluid.class);
-                if (null != flu) {
-                    System.out.println("注入"+currentField.getName() +"属性"+ " 它的值是"+flu.value());
+	public static Object getBean(Object obj) {
+		//get Property
+		try {
+			Field f[] = obj.getClass().getDeclaredFields();
+			//遍历属性
+			for (Field currentField : f) {
+				//获得属性上的注释
+				Fluid flu = currentField.getAnnotation(Fluid.class);
+				if (null != flu) {
+					System.out.println("注入" + currentField.getName() + "属性" + " 它的值是" + flu.value());
 
                 /*
                 核心1
                  */
-                    obj.getClass().getMethod("set"+currentField.getName().substring(0,1).toUpperCase()+
-                            currentField.getName().substring(1), new Class[]{String.class}).invoke(obj,flu.value());
-                }
-            }
-            //get all method
-            Method m[] = obj.getClass().getDeclaredMethods();
-            for (Method currentMethod : m) {
-                Fluid flm = currentMethod.getAnnotation(Fluid.class);
-                if (null!=flm) {
-                    System.out.println("注入"+ currentMethod.getName()+"方法"+ " 方法属性"+ flm.Property());
+					obj.getClass().getMethod("set" + currentField.getName().substring(0, 1).toUpperCase() +
+							currentField.getName().substring(1), new Class[]{String.class}).invoke(obj, flu.value());
+				}
+			}
+			//get all method
+			Method m[] = obj.getClass().getDeclaredMethods();
+			for (Method currentMethod : m) {
+				Fluid flm = currentMethod.getAnnotation(Fluid.class);
+				if (null != flm) {
+					System.out.println("注入" + currentMethod.getName() + "方法" + " 方法属性" + flm.Property());
                 /*
                 核心2
                  */
-                    currentMethod.invoke(obj,flm.Property());
-                }
-            }
-        }catch(Exception e){
-            e.printStackTrace();
-        }
+					currentMethod.invoke(obj, flm.Property());
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
-        return obj;
-    }
+		return obj;
+	}
 }

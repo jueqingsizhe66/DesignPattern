@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class File implements Component {
-	private  String name;
+	private String name;
 	
 	public File(String name) {
 		this.name = name;
@@ -19,6 +19,7 @@ public class File implements Component {
 	public Component addFolder(Component folder) {
 		return null;
 	}
+
 	@Override
 	public void removeFile(Component file) {
 		System.out.println("具体叶子结点文件无法删除文件");
@@ -26,7 +27,7 @@ public class File implements Component {
 	
 	@Override
 	public void removeFolder(Component folder) {
-	
+
 	}
 	
 	@Override

@@ -12,8 +12,8 @@ public class VisitorImpl implements Visitor {
 	@Override
 	public void visit(UserOrdinary user) {
 		String estimation = user.getEstimation();
-		if (estimation.length()>10) {
-			System.out.println("記錄一條有效反饋： "+ estimation);
+		if (estimation.length() > 10) {
+			System.out.println("記錄一條有效反饋： " + estimation);
 		}
 	}
 }

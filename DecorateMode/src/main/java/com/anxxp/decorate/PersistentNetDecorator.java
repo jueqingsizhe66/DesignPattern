@@ -15,6 +15,6 @@ public class PersistentNetDecorator extends PersistentDecorator {
 	}
 	
 	private void pesistentToNet(String msg) {
-		System.out.println(msg+ "存入网络的其他地方");
+		System.out.println(msg + "存入网络的其他地方");
 	}
 }

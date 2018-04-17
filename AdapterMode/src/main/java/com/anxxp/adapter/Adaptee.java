@@ -5,6 +5,6 @@ package com.anxxp.adapter;
  */
 public class Adaptee {
 	void playMp3(Object src) {
-		System.out.println("播放Mp3: " +src);
+		System.out.println("播放Mp3: " + src);
 	}
 }

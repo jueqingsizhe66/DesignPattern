@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 目录节点
  */
-public class Folder implements Component{
+public class Folder implements Component {
 	private String name;
 	private List<Component> files;
 	private List<Component> folders;
@@ -62,6 +62,7 @@ public class Folder implements Component{
 	 * 为什么需要重置iterator类
 	 * 值得好好思考
 	 * Iterator的作用是所有东西可以当作叶子节点来遍历
+	 *
 	 * @return
 	 */
 	@Override
@@ -76,23 +77,24 @@ public class Folder implements Component{
 	
 	/**
 	 * 递归函数便利所有节点
+	 *
 	 * @param all
 	 * @param component
 	 */
-	private void add(List<Component> all, Component component){
-		if (component==null) {
+	private void add(List<Component> all, Component component) {
+		if (component == null) {
 			return;
 		}
 		all.add(component);
 		Iterator<Component> iterator = component.getFolders().iterator();
 		while (iterator.hasNext()) {
-			add(all,iterator.next());
+			add(all, iterator.next());
 		}
 		all.addAll(component.getFiles());
 	}
 	/**
 	 *  输出与我们预期想得到的迭代器是一样的（从某一个目录开始，先输出目录名，然后如果有目录，
 	 *  就递归进入下一级目录，如果没有目录，就输出文件列表）。
-    文件和目录（Composite和Leaf）实现了相同的接口，所以操作起来很方便，包括迭代。
+	 文件和目录（Composite和Leaf）实现了相同的接口，所以操作起来很方便，包括迭代。
 	 */
 }

@@ -1,8 +1,6 @@
 package com.anxxp.command;
 
 
-import java.net.MalformedURLException;
-
 public class TestUse {
 	public static void main(String[] args) throws Exception {
 		//接收者

@@ -9,6 +9,6 @@ public class CommandCreate implements Command {
 	
 	@Override
 	public void execute(String name) throws Exception {
-	makeFile.createFile(name);
+		makeFile.createFile(name);
 	}
 }

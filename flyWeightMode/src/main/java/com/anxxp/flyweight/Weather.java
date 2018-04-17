@@ -17,12 +17,12 @@ public class Weather implements IWeather {
 	
 	@Override
 	public int hashCode() {//Integer和String的hashCode(）方法都是合理的，取均值即可
-		return (weather.hashCode() + temperature.hashCode())/2;
+		return (weather.hashCode() + temperature.hashCode()) / 2;
 	}
 	
 	@Override
 	public boolean equals(Object obj) {
-		Weather weatherObj=(Weather)obj;
-		return weatherObj.weather.equals(this.weather) && weatherObj.temperature==temperature;
+		Weather weatherObj = (Weather) obj;
+		return weatherObj.weather.equals(this.weather) && weatherObj.temperature == temperature;
 	}
 }

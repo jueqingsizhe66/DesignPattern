@@ -1,6 +1,6 @@
 package com.anxxp.visitor;
 
-public class UserVIP implements User{
+public class UserVIP implements User {
 	String estimate;
 	
 	public UserVIP(String estimate) {

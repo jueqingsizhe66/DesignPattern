@@ -23,7 +23,7 @@ public class TestUse {
 			Component component = iterator.next();
 			if (component instanceof Folder) {
 				System.out.println("Folder: ");
-			}else{
+			} else {
 				System.out.println("File: ");
 			}
 			component.display();

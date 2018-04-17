@@ -27,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/VisitorMode/VisitorMode.iml" filepath="$PROJECT_DIR$/VisitorMode/VisitorMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/commandModel/commandModel.iml" filepath="$PROJECT_DIR$/commandModel/commandModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/designer.iml" filepath="$PROJECT_DIR$/designer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/f708mvc/f708mvc.iml" filepath="$PROJECT_DIR$/f708mvc/f708mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/f708mvcTest/f708mvcTest.iml" filepath="$PROJECT_DIR$/f708mvcTest/f708mvcTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyWeightMode/flyWeight.iml" filepath="$PROJECT_DIR$/flyWeightMode/flyWeight.iml" />
     </modules>
   </component>

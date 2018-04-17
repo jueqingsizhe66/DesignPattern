@@ -16,13 +16,13 @@ public class MultiDispatch {
 	}
 }
 
-class Father{
+class Father {
 	void print() {
 		System.out.println("Father Class");
 	}
 }
 
-class Son extends Father{
+class Son extends Father {
 	void print() {
 		System.out.println("Son Class");
 	}
@@ -32,9 +32,8 @@ class Son extends Father{
 	}
 }
 
-class Visitor2{
-	public void print (Son son)
-	{
+class Visitor2 {
+	public void print(Son son) {
 		son.print();
 	}
 }

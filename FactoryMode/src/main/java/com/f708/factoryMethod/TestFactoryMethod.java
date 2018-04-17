@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- *	好处是增加新的子类，只要增加Factory类即可。坏处是调用者需要知道要创建哪个子类对象应该调用哪个Factory。
+ * 好处是增加新的子类，只要增加Factory类即可。坏处是调用者需要知道要创建哪个子类对象应该调用哪个Factory。
  * 坏处是需要记住具体的工厂
  */
 
@@ -15,7 +15,7 @@ import java.sql.SQLException;
  *
  */
 public class TestFactoryMethod {
-    public static void main(String[] args) throws SQLException {
-       Connection conn = new MySqlConnectionFactory().create("127.0.0.1", "test", "root", "root");
-    }
+	public static void main(String[] args) throws SQLException {
+		Connection conn = new MySqlConnectionFactory().create("127.0.0.1", "test", "root", "root");
+	}
 }

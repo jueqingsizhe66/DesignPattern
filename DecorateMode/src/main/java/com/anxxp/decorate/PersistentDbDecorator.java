@@ -15,6 +15,6 @@ public class PersistentDbDecorator extends PersistentDecorator {
 	}
 	
 	private void persistentToDb(String msg) {
-		System.out.println(msg+" 存入数据库");
+		System.out.println(msg + " 存入数据库");
 	}
 }

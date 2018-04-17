@@ -8,7 +8,7 @@ public class Derector {
 	}
 	
 	public String getDate(int y, int m, int d) {
-		builder.buildDate(y,m,d);
-		return  builder.date();
+		builder.buildDate(y, m, d);
+		return builder.date();
 	}
 }

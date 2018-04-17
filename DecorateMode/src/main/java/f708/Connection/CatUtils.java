@@ -24,20 +24,20 @@ http://www.iteye.com/magazines/90
 
  */
 public class CatUtils {
-    public static void checkSQL(String sql) throws SQLException {
-        if (sql.startsWith("delete")&& !sql.contains("where")) {
-            throw new SQLException("Cannot delete records without sql!!!!!!");
-        }
-        if (sql.startsWith("update")&& !sql.contains("where")) {
-            throw new SQLException("Cannot update records without sql!!!!!!");
-        }
-    }
+	public static void checkSQL(String sql) throws SQLException {
+		if (sql.startsWith("delete") && !sql.contains("where")) {
+			throw new SQLException("Cannot delete records without sql!!!!!!");
+		}
+		if (sql.startsWith("update") && !sql.contains("where")) {
+			throw new SQLException("Cannot update records without sql!!!!!!");
+		}
+	}
 
-    public static void log(String sql)  {
+	public static void log(String sql) {
         /*
         可以用Log4j  记录下来 持久化
          */
-        System.out.println(new Date(System.currentTimeMillis())+": " +sql);
+		System.out.println(new Date(System.currentTimeMillis()) + ": " + sql);
 
-    }
+	}
 }

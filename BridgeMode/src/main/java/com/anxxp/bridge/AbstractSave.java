@@ -1,7 +1,7 @@
 package com.anxxp.bridge;
 
 /**
- *  如何存储？？？？
+ * 如何存储？？？？
  */
 public abstract class AbstractSave {
 	ISaveData saveData;

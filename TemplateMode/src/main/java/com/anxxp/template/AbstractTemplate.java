@@ -16,9 +16,11 @@ public abstract class AbstractTemplate {
 	/**
 	 * 普通方法，可以实现 也可能需要子类实现
 	 */
-	void printData(){
+	void printData() {
 		System.out.println(data);
-	};
+	}
+
+	;
 	
 	abstract void calcData();
 	
