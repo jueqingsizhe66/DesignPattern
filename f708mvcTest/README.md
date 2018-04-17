@@ -107,9 +107,9 @@ public class SessionListener implements HttpSessionAttributeListener,
 
 ```
 
-[1]: https://github.com/jueqingsizhe66/DesignPattern/tree/master/f708mvcTest/img/structure.png
-[2]: https://github.com/jueqingsizhe66/DesignPattern/tree/master/f708mvcTest/img/deploy1.png
-[3]: https://github.com/jueqingsizhe66/DesignPattern/tree/master/f708mvcTest/img/deploy2.png
+[1]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/structure.png
+[2]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/deploy1.png
+[3]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/deploy2.png
 [4]:http://www.codejava.net/java-ee/servlet/webservlet-annotation-examples 
 [5]:https://www.cnblogs.com/gckb/p/WebServlet.html 
 [6]: https://blog.csdn.net/liuxiao723846/article/details/50492266 
