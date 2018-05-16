@@ -106,7 +106,7 @@ public class SessionListener implements HttpSessionAttributeListener,
 </listener>  
 
 ```
-
+[1]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/f708mvcTest/img/structure.png 
 [1]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/structure.png
 [2]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/deploy1.png
 [3]: https://github.com/jueqingsizhe66/DesignPattern/blog/master/f708mvcTest/img/deploy2.png
