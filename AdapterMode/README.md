@@ -1,6 +1,6 @@
  将一个类的接口转换成客户希望的另外一个接口。该模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
-    何时使用
+## 何时使用
 
     一个程序想使用已经存在的类，但是该类所实现的接口和当前程序所使用的接口不一致时。
     优点
@@ -14,10 +14,10 @@
     举个例子，你有一个播放器，只能播放MP3格式的音乐，
     但是现在需要它能播放flac格式的，我们不能直接使用这个播放器，但可以添加一个适配器来解决这个问题：
     
- 1. Vector使用Enumeration類進行遍歷
- 2. 實現Iterable<String>之後[書冊需要實現Iterable接口，獲取迭代器對象]需要實現iterator()方法
- 3. 實現了Iterator<String>類需要重寫hasNext()和next方法，對應Enumeration的hasMoreElements()和nextElement
-    這樣就可以轉換老系統的Enumeration到Iterator方式
+ 1. Vector使用Enumeration类进行遍历
+ 2. 实现Iterable<String>之後[注册需要实现Iterable接口，获取迭代器对象]需要实现iterator()方法
+ 3. 实现了Iterator<String>类需要重写hasNext()和next方法，对应Enumeration的hasMoreElements()和nextElement
+    这样就可以转换老系统的Enumeration到Iterator方式
     
     Book --- Eneumeration----Vector
     
@@ -25,5 +25,5 @@
     Book---BookAdapter-----IterationAdapter------Enumeration-----Vector
     
     
-    以為Book數據結構是List，所以想要使用Iterator
+    以为Book数据结构是List，所以想要使用Iterator
     

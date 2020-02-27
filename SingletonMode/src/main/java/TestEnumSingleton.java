@@ -1,4 +1,5 @@
 public class TestEnumSingleton {
+
 	public static void main(String[] args) {
 		EnumSingleton obj1 = EnumSingleton.getInstance();
 		EnumSingleton obj2 = EnumSingleton.getInstance();
