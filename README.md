@@ -57,6 +57,7 @@ Hessian接口，
 2. Hessian服务器
 3. Hessian客户端(代理模式的运用, https文本代理，rpc二进制代理)
 
+![hessian][6]
 牛顿说："世界要接口，于是接口无处不在"
 
 
@@ -202,3 +203,4 @@ X代表各个子模块，子包，A代表坑的多少，做到的程度， Y就�
 [3]:http://hessian.caucho.com/ 
 [4]:https://blog.csdn.net/anxpp/article/details/51224293 
 [5]:http://jueqingsizhe66.github.io/blog/2015/05/18/the-little-scheme-and-part-of-tss/ 
+[6]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/Hessian.png

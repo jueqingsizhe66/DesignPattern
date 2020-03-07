@@ -1,4 +1,9 @@
 # Hessian
+
+TODO:
+画一张图
+
+
 Hessian是一个二进制RPC（远程方法调用 remote procedure call）框架，
 (向服务器端调用方法…………)
 还有RMI、Protobuf等，

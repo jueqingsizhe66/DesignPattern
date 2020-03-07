@@ -11,28 +11,28 @@
         <module name="BridgeMode" />
         <module name="DecorateMode" />
         <module name="flyWeight" />
-        <module name="ResponsibilityChainMode" />
         <module name="MediatorMode" />
-        <module name="ProxyMode" />
         <module name="f708mvcTest" />
         <module name="TemplateMode" />
-        <module name="AdapterMode" />
+        <module name="ResponsibilityChainMode" />
         <module name="AOPInject" />
         <module name="commandModel" />
         <module name="IteratorMode" />
         <module name="BuildMode" />
         <module name="FactoryMode" />
-        <module name="MementoMode" />
+        <module name="HesssianClient" />
         <module name="Interpreter" />
+        <module name="MementoMode" />
+        <module name="ProxyMode" />
         <module name="f708mvc" />
-        <module name="SingletonMode" />
+        <module name="AdapterMode" />
         <module name="HessianServer" />
-        <module name="HessianInterface" />
         <module name="StatusMode" />
         <module name="ProtoTypeMode" />
         <module name="StragetyMode" />
-        <module name="HesssianClient" />
         <module name="VisitorMode" />
+        <module name="HessianInterface" />
+        <module name="SingletonMode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -70,33 +70,33 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="AOPInject" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="AdapterMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="BridgeMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="BuildMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="CompositeMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="DecorateMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="FactoryMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="HessianInterface" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="HessianServer" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="HesssianClient" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
+      <module name="AOPInject" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="AdapterMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="BridgeMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="BuildMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="CompositeMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="DecorateMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="FactoryMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="HessianInterface" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="HessianServer" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="HesssianClient" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
       <module name="Interpreter" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
-      <module name="IteratorMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="MediatorMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="MementoMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="ObserverMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="ProtoTypeMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="ProxyMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="ResponsibilityChainMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="SingletonMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="StatusMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="StragetyMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="TemplateMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="VisitorMode" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="commandModel" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="f708mvc" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="f708mvcTest" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
-      <module name="flyWeight" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\jbr/lib/jce.jar&quot;" />
+      <module name="IteratorMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="MediatorMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="MementoMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="ObserverMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="ProtoTypeMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="ProxyMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="ResponsibilityChainMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="SingletonMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="StatusMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="StragetyMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="TemplateMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="VisitorMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="commandModel" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="f708mvc" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="f708mvcTest" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
+      <module name="flyWeight" options="-verbose -bootclasspath $PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/rt.jar;$PROJECT_DIR$/../../../JAVA/jdk-13.0.2/lib/jce.jar" />
     </option>
   </component>
 </project>
