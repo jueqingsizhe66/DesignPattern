@@ -13,4 +13,6 @@
 1. 所有字段值注入
 2. 所有方法类注入和执行
 
+![AOPInject][1]
+
 [1]: https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/AOPInject.png
