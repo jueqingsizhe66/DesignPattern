@@ -72,8 +72,8 @@ Hessian接口，
 
 也就是
 
-a. 重载的分派是根据静态类型(父类)进行的
-b. 重写的分派是根据动态类型(子类)进行的
+a. 重载的分派是根据静态类型(父类)进行的(同一个类中，只是修改函数的参数，参数的类型和个数)--参数静态分配(分配内存?)
+b. 重写的分派是根据动态类型(子类)进行的(不同类中)--子类动态分配
 
 
 
@@ -89,7 +89,7 @@ Y相当于对象。
 
 有时候也可能这样，别人给你一个开源代码，相当于给你一个Y,一个展示，以及各个模块X，但是你不知道他做的怎么样？ 也就是你不知道A，不知道有多少坑！
 (有些专家一辈子(GMRES--YouSef Saad[1])就搞Y=AX+B的求解，这只是一个简化型公式，用于描述流体流动的Navier-Stokes方程,
-A可以包含复杂的线性和非线性张量, 并搞得很出彩
+A可以包含复杂的线性和非线性张量, 并做的很
 
 1. Saad Y , Sosonkina M . Distributed Schur Complement Techniques for General Sparse Linear Systems[J]. SIAM Journal on Scientific Computing, 1997, 21(4):1337-1356.
 
@@ -102,9 +102,9 @@ A可以包含复杂的线性和非线性张量, 并搞得很出彩
      Y =  Ai * Xi +bi , i = 0,1,...,n
 ```
 
-X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代过程），做到的程度， Y就是你设计的后台系统。
+X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代过程，非线性的一阶、二阶算子），做到的程度， Y就是你设计的后台系统。
 
-设计模式体现着不同的组织形式，不同形式有不同的优缺点【这句话得深入体会】
+设计模式体现着不同的组织形式，不同形式有不同的优缺点【这句话得深入体会, 2020-04-15 得研究清楚不同的Xi的区别和联系，理清他们的本质不同】
 
 ```
         看都看得明白，自己写还是if-else
@@ -136,12 +136,13 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 针对动作、行为的行为类[访问者模式的visitorImpl， 策略模式的方法] 
 
 小结： 有些设计模式针对元素进行重构，有些设计模式针对行为、方法进行重构
+2020-04-15 又重新认识了设计模式的分类问题。
 
 7. 对象繁殖
 
 当前的对象的最基本能力就是生产下一代，培育下一代，没有其他。
 
-每个对象都由构建、销毁的能力。
+每个对象有都构建、销毁的能力(构成了他们的生命周期)。
 
 基于这种thinking也可能帮助account for the design patterns.
 
@@ -178,12 +179,6 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 - 删除文件夹 
 - 修改文件等行为进行观察，如果发生相应动作该怎么办;
 
-而现在visitor pattern不同的是，他没有行为，只是我们要观察的行为，我们想看到、侦查到某一个元素、结构等，并进行
-
-- `上报`
-- `显示`
-- `回馈` 等行为，不同的vistor类;
-
 最终report的内容就不一样【让我想起了Perl语言， Practical extraction and report language】
 这就有点像解释器模式，因为其实程序本身就是一个解释器！【最好的理解方式是通过[scheme写一个解释器][5]出来】
 
@@ -207,8 +202,20 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 
 - 了解动态代理的生成原理(invoke)
 - 了解注解的执行过程(@Fluid)
+
+11. what's the difference between decrator and vistor?
+
+简单的说，
+          修饰模式是接口不变，但是接口的内部逻辑扩展；
+          访问者模式是，增加了接口，以定义新的访问方式。  
+          访问者模式：可拓展接口的设计模式
+
+你写的内容一定得保持前后一致性，不允许存在逻辑的跳跃过程。
 ![fluid][7]
 
+12. 每一张设计模式构成了你的玻璃纸
+
+![design pattern][8]
 
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
@@ -217,3 +224,4 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 [5]:http://jueqingsizhe66.github.io/blog/2015/05/18/the-little-scheme-and-part-of-tss/ 
 [6]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/Hessian.png
 [7]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/AOPInject.png
+[8]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/layoutGlasses.png
