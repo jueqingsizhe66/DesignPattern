@@ -19,4 +19,8 @@ public class EnumSingleton {
 			return singleton;
 		}
 	}
+
+	public static void main(String[] args) {
+
+	}
 }

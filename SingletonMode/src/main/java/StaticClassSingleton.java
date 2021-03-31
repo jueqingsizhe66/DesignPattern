@@ -2,7 +2,7 @@ public class StaticClassSingleton {
     // 推荐使用
     private static StaticClassSingleton instance;
 
-    //构造器私有化
+    //构造器私有化(所有单例模式都有）
     private StaticClassSingleton(){
     }
 
