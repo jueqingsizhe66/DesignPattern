@@ -223,6 +223,10 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 
 ![design pattern][8]
 
+13. 相关学习资源
+
+[JAVA图解设计模式][10] 源代码： [DesignPatter][9]
+
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
 [3]:http://hessian.caucho.com/ 
@@ -231,3 +235,5 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 [6]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/Hessian.png
 [7]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/AOPInject.png
 [8]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/layoutGlasses.png
+[9]: https://github.com/mxg133/learnforJava_DesignPattern
+[10]: https://www.bilibili.com/video/BV1G4411c7N4?from=search&seid=15872822897781241058
