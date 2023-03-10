@@ -2,6 +2,29 @@
 
 ## 2018-03-22
 
+高内聚、低耦合（组合、依赖   封装、继承、多态）
+
+[Mosh design pattern][11]
+
+[java design pattern github code][12]
+
+0. What is interface?
+
+interface is an contract which can provide the feature to stronger the power of the product.
+
+is an contract that specifies  the capabilities that a class should provide.(loose system)
+
+  a. private?
+    很重要的封装技能, 封锁字段修改或者函数修改，供内部类使用
+    比如Account的balance字段是private，那么就不可以使用accuout.balance了，总有其他方法可以调用和修改他！
+  b. module?
+    模块化变成，未来的方向，所有的模块都使用module-info.java, 并且使用require, exports, open ,opens规范API的调用
+    使得未来java程序升级更加的便利化！ 只要保证接口一致即可， 这也符合拓展支持、修改关闭的原则
+
+上述操作，都是为了reduce system complexity by hiding unnecessary details(降低不必要的细节，是为了更好模块化或者协同编程)
+有些信息隐藏起来，是为了建立更大的系统。 就像遥控器就那么几十个键，但是内部集成线路封装无数的引脚,处理多路信号(控制信号、数据信号)。
+
+
 1. 模板
 
 [beetl][1] 我挺喜欢的一款java模板引擎，你知道里面有多少种设计模式？
@@ -191,7 +214,7 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 访问者模式只不过是解释器的一种简化对象模式，对象可能比较少，解释器要求是一个模态空间的全部、完备对象。
 很多解释器都是用visitor模式进行编写
 
-- 而策略模式、
+- 而[策略模式][13]、
 - 观察者模式、
 - 责任链模式等都是针对你的行为进行`轮询` or `Iterator`的过程,
 
@@ -226,6 +249,8 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 13. 相关学习资源
 
 [JAVA图解设计模式][10] 源代码： [DesignPatter][9]
+[HEAD First Design Pattern][15]
+[Java Design Pattern][12]
 
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
@@ -237,3 +262,7 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 [8]:https://github.com/jueqingsizhe66/DesignPattern/blob/master/image/layoutGlasses.png
 [9]: https://github.com/mxg133/learnforJava_DesignPattern
 [10]: https://www.bilibili.com/video/BV1G4411c7N4?from=search&seid=15872822897781241058
+[11]:https://www.youtube.com/watch?v=NU_1StN5Tkk 
+[12]:https://github.com/iluwatar/java-design-patterns 
+[13]:https://www.youtube.com/watch?v=v9ejT8FO-7I 
+[14]:https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/strategy 
