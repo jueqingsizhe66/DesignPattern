@@ -17,6 +17,7 @@ is an contract that specifies  the capabilities that a class should provide.(loo
   a. private?
     很重要的封装技能, 封锁字段修改或者函数修改，供内部类使用
     比如Account的balance字段是private，那么就不可以使用accuout.balance了，总有其他方法可以调用和修改他！
+
   b. module?
     模块化变成，未来的方向，所有的模块都使用module-info.java, 并且使用require, exports, open ,opens规范API的调用
     使得未来java程序升级更加的便利化！ 只要保证接口一致即可， 这也符合拓展支持、修改关闭的原则
@@ -248,9 +249,9 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 
 13. 相关学习资源
 
-[JAVA图解设计模式][10] 源代码： [DesignPatter][9]
-[HEAD First Design Pattern][15]
-[Java Design Pattern][12]
+- [JAVA图解设计模式][10] 源代码： [DesignPatter][9]
+- [HEAD First Design Pattern][15]
+- [Java Design Pattern][12]
 
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
