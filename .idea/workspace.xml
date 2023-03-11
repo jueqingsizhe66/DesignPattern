@@ -43,7 +43,11 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55f6cd6-f0dc-4718-a14e-0aa0124f9204" name="Default" comment="状态模式、策略模式">
+    <list default="true" id="b55f6cd6-f0dc-4718-a14e-0aa0124f9204" name="Default" comment="update readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeMode/src/main/java/TestBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgeMode/src/main/java/TestBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeMode/src/main/java/com/anxxp/bridge/ComputerHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/BridgeMode/src/main/java/com/anxxp/bridge/ComputerHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeMode/src/main/java/com/anxxp/bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BridgeMode/src/main/java/com/anxxp/bridge/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,24 +137,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/java/DesignPattern",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "df608edb53fcc79c12759cdbdf58d9db",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/DesignPattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;df608edb53fcc79c12759cdbdf58d9db&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.anxxp.StatusMode" />
@@ -183,7 +187,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TesMainDuck">
+  <component name="RunManager" selected="应用程序.ComputerHome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -194,6 +198,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qny.statusMode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerHome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anxxp.bridge.ComputerHome" />
+      <module name="BridgeMode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anxxp.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,20 +240,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qny.moshMomento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.build.TestUsers" />
-      <module name="BuildMode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.build.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,13 +370,14 @@
     <list>
       <item itemvalue="JUnit.AOPTest.Test1" />
       <item itemvalue="Tomcat 服务器.HessianServert" />
+      <item itemvalue="应用程序.ComputerHome" />
       <item itemvalue="应用程序.CanvasMain" />
       <item itemvalue="应用程序.TesMainDuck" />
       <item itemvalue="应用程序.TestMainMememto" />
-      <item itemvalue="应用程序.TestUsers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ComputerHome" />
         <item itemvalue="应用程序.TesMainDuck" />
         <item itemvalue="应用程序.TestMainMememto" />
         <item itemvalue="应用程序.CanvasMain" />
@@ -415,7 +420,8 @@
       <workItem from="1584153510478" duration="58000" />
       <workItem from="1586912579358" duration="1485000" />
       <workItem from="1645624306923" duration="1128000" />
-      <workItem from="1678459185108" duration="7752000" />
+      <workItem from="1678459185108" duration="7847000" />
+      <workItem from="1678504779985" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="Design Pattern from Rupeng">
       <created>1520710268171</created>
@@ -431,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678468804307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update readme">
+      <created>1678469005132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678469005132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +464,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design Pattern from Rupeng" />
     <MESSAGE value="状态模式、策略模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态模式、策略模式" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

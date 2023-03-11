@@ -28,7 +28,7 @@ is an contract that specifies  the capabilities that a class should provide.(loo
 
 1. 模板
 
-[beetl][1] 我挺喜欢的一款java模板引擎，你知道里面有多少种设计模式？
+[beetl][1] 、和[jfinal enjoy][15]一款java模板引擎，你知道里面有多少种设计模式？
 
 
 - 要去解释那些元素，是不是得用解释器的设计模式？
@@ -267,3 +267,4 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 [12]:https://github.com/iluwatar/java-design-patterns 
 [13]:https://www.youtube.com/watch?v=v9ejT8FO-7I 
 [14]:https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/strategy 
+[15]:https://gitee.com/jfinal/enjoy 

@@ -29,6 +29,10 @@ class Intel implements Cpu {
 
 //抽象
 abstract class AbstractComputer {
+	/**
+	 * 经典桥接模式：   抽象类里面加上1个字段和1个该字段的构造函数
+	 * 所有继承类都会继承该字段属性， 那么子类的构造函数 只要更改不同的字段接口实现类，那么对应的方法就可以重载，并且重载方法可以增加其他输出（有点类似日记系统，切面编程，这么一说也有点类似装配者模式)
+	 */
 	Cpu cpu;
 
 	public AbstractComputer(Cpu cpu) {
