@@ -43,32 +43,25 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55f6cd6-f0dc-4718-a14e-0aa0124f9204" name="Default" comment="桥接模式">
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/simple/EObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/simple/ESubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/simple/SimpleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/simple/SimpleObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/simple/SimpleSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/HeatIndexDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/OSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/OWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/OWeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverMode/src/main/java/com/qny/hf/weatherObservable/WeatherStationHeatIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/AbsPhoneCameraApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/BasicPhoneCameraIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/ExtraPhoneCameralIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/ShareByEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/ShareBySocial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/ShareByTXT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/ShareStrategic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StragetyMode/src/main/java/com/qny/ShareWe/TestPhoneCamera.java" afterDir="false" />
+    <list default="true" id="b55f6cd6-f0dc-4718-a14e-0aa0124f9204" name="Default" comment="观察者模式：WeatherData  WeatherStation   策略者模式：has a ShareStrategic and set new method">
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/Olive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/ThickCrustPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/ThinCrustPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/pizza/ToppingPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/OriginalBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/OriginalBeverage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/OriginalBeverage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/PlusMilkDeco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/PlusMochaDeco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/PlusSoyDeco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecorateMode/src/main/java/com/qny/starbuzz/TestStarBuzzMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,17 +200,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestPhoneCamera">
+  <component name="RunManager" selected="应用程序.TestStarBuzzMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="SimpleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qny.hf.simple.SimpleMain" />
-      <module name="ObserverMode" />
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qny.pizza.PizzaStore" />
+      <module name="DecorateMode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qny.hf.simple.*" />
+          <option name="PATTERN" value="com.qny.pizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,13 +246,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qny.hf.weatherObservable.WeatherStation" />
-      <module name="ObserverMode" />
+    <configuration name="TestStarBuzzMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qny.starbuzz.TestStarBuzzMain" />
+      <module name="DecorateMode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qny.hf.weatherObservable.*" />
+          <option name="PATTERN" value="com.qny.starbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,19 +379,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat 服务器.HessianServert" />
-      <item itemvalue="应用程序.SimpleMain" />
+      <item itemvalue="应用程序.PizzaStore" />
       <item itemvalue="应用程序.TestPhoneCamera" />
-      <item itemvalue="应用程序.WeatherStation" />
+      <item itemvalue="应用程序.TestStarBuzzMain" />
       <item itemvalue="应用程序.WeatherStationHeatIndex" />
       <item itemvalue="应用程序.TesMainDuck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestStarBuzzMain" />
+        <item itemvalue="应用程序.PizzaStore" />
         <item itemvalue="应用程序.TestPhoneCamera" />
         <item itemvalue="应用程序.TesMainDuck" />
         <item itemvalue="应用程序.WeatherStationHeatIndex" />
-        <item itemvalue="应用程序.WeatherStation" />
-        <item itemvalue="应用程序.SimpleMain" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +431,7 @@
       <workItem from="1586912579358" duration="1485000" />
       <workItem from="1645624306923" duration="1128000" />
       <workItem from="1678459185108" duration="7847000" />
-      <workItem from="1678504779985" duration="6552000" />
+      <workItem from="1678504779985" duration="9031000" />
     </task>
     <task id="LOCAL-00001" summary="Design Pattern from Rupeng">
       <created>1520710268171</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678505881455</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="观察者模式：WeatherData  WeatherStation   策略者模式：has a ShareStrategic and set new method">
+      <created>1678549062195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678549062195</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +490,8 @@
     <MESSAGE value="状态模式、策略模式" />
     <MESSAGE value="update readme" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="观察者模式：WeatherData  WeatherStation   策略者模式：has a ShareStrategic and set new method" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式：WeatherData  WeatherStation   策略者模式：has a ShareStrategic and set new method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
