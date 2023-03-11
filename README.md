@@ -253,6 +253,12 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 - [HEAD First Design Pattern][15]
 - [Java Design Pattern][12]
 
+14. 桥接模式特点
+
+- 1个待实现的接口字段
+- 1个抽象类 包含该接口字段的单参构造函数
+- main函数使用new XX(new YY()).ZZ()进行方法调用
+
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
 [3]:http://hessian.caucho.com/ 
