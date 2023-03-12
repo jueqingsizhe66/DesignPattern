@@ -59,7 +59,7 @@ public class TestReaderParser {
 	public static void main(String[] args) throws IOException {
 		//    String s1=TestReaderParser.readAsString(new File("C:\\Users\\yzl\\Desktop\\paperForTorque\\test.txt")); //OK
 //        String s1=TestReaderParser.readAsString(new File("C:\\Users\\yzl\\Desktop\\paperForTorque\\Yplus.html"));// OK
-		String s1 = TestReaderParser.readAsString(new File("C:\\Users\\yzl\\Desktop\\paperForTorque\\工热文章-叶昭良-20177137.docx"));//OK, OK 2
+		String s1 = TestReaderParser.readAsString(new File("D:\\java\\DesignPattern\\ResponsibilityChainMode\\src\\main\\resources\\readers.txt"));//OK, OK 2
 		System.out.println(s1);
 	}
 }
