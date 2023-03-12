@@ -28,7 +28,7 @@ is an contract that specifies  the capabilities that a class should provide.(loo
 
 1. 模板
 
-[beetl][1] 、和[jfinal enjoy][15]一款java模板引擎，你知道里面有多少种设计模式？
+[beetl][1] 、和[jfinal enjoy][15]都是java模板引擎，你知道里面有多少种设计模式？
 
 
 - 要去解释那些元素，是不是得用解释器的设计模式？
