@@ -263,6 +263,44 @@ X代表各个子模块，子包，A代表坑的多少(存在非线性的迭代�
 - 1个抽象类 包含该接口字段的单参构造函数
 - main函数使用new XX(new YY()).ZZ()进行方法调用
 
+15. 动态代理的灵魂
+代理一类接口的服务
+
+下面是万能代理类：
+1. InvocationHandler目前是冲在Invoke方法，
+2. Proxy类的目的是根据类加载器、接口、被代理对象，生成代理对象newProxyInstance, 并且根据代理对象，执行被代理接口的增删查找等其他行为接口
+```java
+public class ProxyInvocationHandler implements InvocationHandler {
+    /// 处理代理实例 返回结果
+    // 被代理的对象
+    private Object target;
+
+    public void setTarget(Object target) {
+        this.target = target;
+    }
+
+    public Object getProxy(){
+        return Proxy.newProxyInstance(this.getClass().getClassLoader(), target.getClass().getInterfaces(),this);
+    }
+
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+
+//        log("add");
+        log(method.getName());
+        //动态代理的本质就是使用反射  没有像之前的Lianjia类的处理逻辑是写死的
+        Object result = method.invoke(target,args);// 调用房东的核心租房业务
+        return result;
+    }
+    public void log(String msg){
+        System.out.println("执行了"+msg+"方法");
+    }
+
+}
+
+
+```
+
 [1]:http://ibeetl.com/guide/#beetl 
 [2]:http://mp.baomidou.com/#/?id=%E7%AE%80%E4%BB%8B 
 [3]:http://hessian.caucho.com/ 

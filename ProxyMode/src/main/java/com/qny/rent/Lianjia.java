@@ -30,7 +30,7 @@ public class Lianjia implements Rent{
      * 中介可以看房
      */
     public void visitHouse(){
-        System.out.printf("中介带你看房");
+        System.out.println("中介带你看房");
     }
 
     /**
