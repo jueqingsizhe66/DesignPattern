@@ -18,6 +18,7 @@
         <module name="DecorateMode" />
         <module name="ProtoTypeMode" />
         <module name="StragetyMode" />
+        <module name="BuildMOde" />
         <module name="ProxyMode" />
         <module name="SingletonMode" />
         <module name="Interpreter" />
@@ -31,39 +32,11 @@
         <module name="AdapterMode" />
         <module name="ResponsibilityChainMode" />
         <module name="ObserverMode" />
-        <module name="BuildMode" />
         <module name="HessianServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AdapterMode" target="1.8" />
-      <module name="AOPInject" target="1.8" />
-      <module name="BridgeMode" target="1.8" />
       <module name="BuildMode" target="1.8" />
-      <module name="commandModel" target="1.8" />
-      <module name="CompositeMode" target="1.8" />
-      <module name="DecorateMode" target="1.8" />
-      <module name="designer" target="1.8" />
-      <module name="f708mvc" target="1.8" />
-      <module name="f708mvcTest" target="1.8" />
-      <module name="FactoryMode" target="1.8" />
-      <module name="flyWeight" target="1.8" />
-      <module name="HessianInterface" target="1.8" />
-      <module name="HessianServer" target="1.8" />
-      <module name="HesssianClient" target="1.8" />
-      <module name="Interpreter" target="1.8" />
-      <module name="IteratorMode" target="1.8" />
-      <module name="MediatorMode" target="1.8" />
-      <module name="MementoMode" target="10" />
-      <module name="ObserverMode" target="1.8" />
-      <module name="ProtoTypeMode" target="1.8" />
-      <module name="ProxyMode" target="1.8" />
-      <module name="ResponsibilityChainMode" target="1.8" />
-      <module name="SingletonMode" target="1.8" />
-      <module name="StatusMode" target="1.8" />
-      <module name="StragetyMode" target="1.8" />
-      <module name="TemplateMode" target="1.8" />
-      <module name="VisitorMode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -71,6 +44,7 @@
       <module name="AOPInject" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
       <module name="AdapterMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
       <module name="BridgeMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
+      <module name="BuildMOde" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
       <module name="BuildMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
       <module name="CompositeMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />
       <module name="DecorateMode" options="-verbose -bootclasspath $PROJECT_DIR$/../../jdk-17.0.2/lib/rt.jar;$PROJECT_DIR$/../../jdk-17.0.2/lib/jce.jar" />

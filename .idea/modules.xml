@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AOPInject/AOPInject.iml" filepath="$PROJECT_DIR$/AOPInject/AOPInject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AdapterMode/AdapterMode.iml" filepath="$PROJECT_DIR$/AdapterMode/AdapterMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BridgeMode/BridgeMode.iml" filepath="$PROJECT_DIR$/BridgeMode/BridgeMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BuildMode/BuildMode.iml" filepath="$PROJECT_DIR$/BuildMode/BuildMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CompositeMode/CompositeMode.iml" filepath="$PROJECT_DIR$/CompositeMode/CompositeMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DecorateMode/DecorateMode.iml" filepath="$PROJECT_DIR$/DecorateMode/DecorateMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FactoryMode/FactoryMode.iml" filepath="$PROJECT_DIR$/FactoryMode/FactoryMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HessianInterface/HessianInterface.iml" filepath="$PROJECT_DIR$/HessianInterface/HessianInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HessianServer/HessianServer.iml" filepath="$PROJECT_DIR$/HessianServer/HessianServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HesssianClient/HesssianClient.iml" filepath="$PROJECT_DIR$/HesssianClient/HesssianClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IteratorMode/IteratorMode.iml" filepath="$PROJECT_DIR$/IteratorMode/IteratorMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MediatorMode/MediatorMode.iml" filepath="$PROJECT_DIR$/MediatorMode/MediatorMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MementoMode/MementoMode.iml" filepath="$PROJECT_DIR$/MementoMode/MementoMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ObserverMode/ObserverMode.iml" filepath="$PROJECT_DIR$/ObserverMode/ObserverMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" filepath="$PROJECT_DIR$/ProtoTypeMode/ProtoTypeMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProxyMode/ProxyMode.iml" filepath="$PROJECT_DIR$/ProxyMode/ProxyMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" filepath="$PROJECT_DIR$/ResponsibilityChainMode/ResponsibilityChainMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SingletonMode/SingletonMode.iml" filepath="$PROJECT_DIR$/SingletonMode/SingletonMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StatusMode/StatusMode.iml" filepath="$PROJECT_DIR$/StatusMode/StatusMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StragetyMode/StragetyMode.iml" filepath="$PROJECT_DIR$/StragetyMode/StragetyMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TemplateMode/TemplateMode.iml" filepath="$PROJECT_DIR$/TemplateMode/TemplateMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/VisitorMode/VisitorMode.iml" filepath="$PROJECT_DIR$/VisitorMode/VisitorMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/commandModel/commandModel.iml" filepath="$PROJECT_DIR$/commandModel/commandModel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designer.iml" filepath="$PROJECT_DIR$/designer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/f708mvc/f708mvc.iml" filepath="$PROJECT_DIR$/f708mvc/f708mvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/f708mvcTest/f708mvcTest.iml" filepath="$PROJECT_DIR$/f708mvcTest/f708mvcTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flyWeightMode/flyWeight.iml" filepath="$PROJECT_DIR$/flyWeightMode/flyWeight.iml" />
     </modules>
   </component>
 </project>

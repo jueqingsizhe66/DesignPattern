@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JuliaProjectSettings">
+    <option name="basePath" value="D:\Julia-1.8.5\share\julia\base" />
+    <option name="exePath" value="D:\Julia-1.8.5\bin\julia.exe" />
+    <option name="importPath" value="D:\Julia-1.8.5" />
+    <option name="version" value="1.8.5" />
+  </component>
+</project>
